@@ -58,7 +58,7 @@
     Plugin 'Yggdroot/indentLine'
     Plugin 'Shougo/vimshell.vim'
     Plugin 'xolox/vim-shell'
-    Plugin 'xolox/vim-easytags'
+    "Plugin 'xolox/vim-easytags'
     Plugin 'xolox/vim-misc'
     Plugin 'vim-scripts/Conque-Shell'
     Plugin 'edkolev/promptline.vim'
@@ -161,7 +161,7 @@
   set nowritebackup
   set iskeyword-=_,.,=,-,:,
   set foldmethod=indent
-  set tabstop=2  softtabstop=2 shiftwidth=2 expandtab
+  set tabstop=4  softtabstop=4 shiftwidth=4 expandtab
   set guifont=Source\ Code\ Pro\ for\ Powerline:h16 
   set autoread
   set wildignore=*.o,*~,*.pyc,*.swp,*.bak,*.class
@@ -407,8 +407,8 @@
     let g:airline_right_alt_sep = '⮃'
 
   "scrooloose/nerdtree
-    nnoremap <leader>ne :NERDTreeFind<CR>
-    nnoremap <leader>nt :NERDTreeToggle<CR>
+    nnoremap ne :NERDTreeFind<CR>
+    nnoremap nt :NERDTreeToggle<CR>
     let g:NERDTreeShowLineNumbers=1
     let g:NERDTreeChDirMode=2
     let NERDTreeWinPos="left"
